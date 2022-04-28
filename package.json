@@ -88,12 +88,11 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.2.1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "detect-browser": "^5.1.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^5.3.3",
-    "tslib": "^1.10.0"
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "styled-components": "^5.3.3"
   }
 }

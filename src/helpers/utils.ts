@@ -183,10 +183,7 @@ export function filterProviders(
 export function filterProviderChecks(checks: string[]): string {
   if (!!checks && checks.length) {
     if (checks.length > 1) {
-      if (
-        checks[0] === injected.METAMASK.check ||
-        checks[0] === injected.CIPHER.check
-      ) {
+      if (checks[0] === injected.METAMASK.check) {
         return checks[1];
       }
     }
